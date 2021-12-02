@@ -5,5 +5,6 @@ export function drawRedRect(svg) {
   rect.setAttribute('fill', 'red');
   rect.setAttribute('width', 100);
   rect.setAttribute('height', 100);
+
   svg.appendChild(rect);
 }
